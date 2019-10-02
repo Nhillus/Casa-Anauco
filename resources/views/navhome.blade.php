@@ -74,16 +74,8 @@ body {
 
 <nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">
-      
-    
-
-
-
-
-
             <a class="navbar-brand" href="#">QUINTA DE ANAUCO</a>
             <!-- dropdown -->
-            
             <li class="nav-item dropdown">
             <a button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">SOBRE EL MUSEO
             <span class="caret"></span></a>
@@ -98,7 +90,7 @@ body {
         <a class="navbar-brand" href="http://localhost/casaAnauco/public/">HOME</a>
         <a class="navbar-brand" href="http://localhost/casaAnauco/public/Noticias">NOTICIAS</a>
       <a class="navbar-brand" href="http://localhost/casaAnauco/public/Eventos">EVENTOS</a>
-      <a class="navbar-brand" href="#">PIEZAS HISTORICAS</a>
+      <a class="navbar-brand" href="http://localhost/casaAnauco/public/Piezas">PIEZAS HISTORICAS</a>
       <a class="navbar-brand" href="#">RECORRIDO VIRTUAL</a>
       <a class="navbar-brand" href="http://localhost/casaAnauco/public/contacto">CONTÁCTENOS</a>
       

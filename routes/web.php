@@ -48,5 +48,7 @@ Route::get('/mensajescontacto', 'ContactosController@mostrarmensajescontacto');
 Route::get('/historia', 'CasaanaucoController@mostrarhistoria');
 Route::get('/servicios', 'CasaanaucoController@mostrarservicios');
 Route::get('/coleccion', 'CasaanaucoController@mostrarcoleccion');
+//Rutas de modulo piezas historicas
+Route::get('/Piezas', 'PiezasController@index');
 
 

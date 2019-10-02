@@ -106,7 +106,7 @@
   <li><a href="#">Solicitudes</a></li>
   <li><a href="http://localhost/casaAnauco/public/Noticias">Noticias</a></li>
   <li><a href="#">eventos</a></li>
-  <li><a href="#">piezas historicas</a></li>
+  <li><a href="http://localhost/casaAnauco/public/Piezas">piezas historicas</a></li>
 </ul>
 </div>
     
