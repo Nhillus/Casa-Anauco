@@ -93,11 +93,12 @@ nav ul ul ul li a
 {
     
     width: 50px;
-    height: 50px;
+    height:45px;
     background:snow;
     text-align: center;
+    line-height: 42px;
     font-size: 35px;
-    margin: 0 10px;
+    margin: 8px 10px;
     display: block;
     border-radius: 50%;
     position: relative;
@@ -109,6 +110,7 @@ nav ul ul ul li a
 nav ul ul ul li a .fab
 {
  position: relative;
+ margin: 0px px;
  color:#000000;
  transition: .5s;
  z-index: 3;
