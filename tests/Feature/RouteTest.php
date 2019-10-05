@@ -14,7 +14,7 @@ class RouteTest extends TestCase
      *
      * @return void
      */
-    public function test_it_see_home_page()
+     function test_it_see_home_page()
     {
         $this->get('/')
              ->assertStatus(200)
