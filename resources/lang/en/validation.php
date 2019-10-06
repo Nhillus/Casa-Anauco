@@ -41,21 +41,14 @@ return [
     'email'                => 'The :attribute must be a valid email address.',
     'exists'               => 'The selected :attribute is invalid.',
     'file'                 => 'The :attribute must be a file.',
-<<<<<<< HEAD
-    'filled'               => 'The :attribute field is required.',
-=======
     'filled'               => 'The :attribute field must have a value.',
->>>>>>> f573e6f3e633c17858db0f592184ce2f5b970055
     'image'                => 'The :attribute must be an image.',
     'in'                   => 'The selected :attribute is invalid.',
     'in_array'             => 'The :attribute field does not exist in :other.',
     'integer'              => 'The :attribute must be an integer.',
     'ip'                   => 'The :attribute must be a valid IP address.',
-<<<<<<< HEAD
-=======
     'ipv4'                 => 'The :attribute must be a valid IPv4 address.',
     'ipv6'                 => 'The :attribute must be a valid IPv6 address.',
->>>>>>> f573e6f3e633c17858db0f592184ce2f5b970055
     'json'                 => 'The :attribute must be a valid JSON string.',
     'max'                  => [
         'numeric' => 'The :attribute may not be greater than :max.',

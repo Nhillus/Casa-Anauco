@@ -51,6 +51,7 @@ Route::get('/coleccion', 'CasaanaucoController@mostrarcoleccion');
 //Rutas de modulo piezas historicas
 Route::get('/Piezas', 'PiezasController@index');
 //Rutas del recorrido virtual
+Route::get('/Recorrido', 'RecorridoController@index');
 
 
 

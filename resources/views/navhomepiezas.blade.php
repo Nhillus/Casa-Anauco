@@ -5,7 +5,7 @@
 <!-- CSS -->
 <link rel="Stylesheet" type="text/ccs" href="style.css">
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximu-scale=1">
 
   <title>Bootstrap Example</title>
   <!--Font awesome icons 4.7 -->
@@ -200,6 +200,55 @@ nav ul li ul li a:hover
     color:#snow;
 }
 
+@media screen and (max-width: 580px){
+    nav {
+            height: auto;
+            border-bottom:0;
+
+        }
+
+    nav ul{
+            display: none;
+            height: auto;
+          }
+    nav li {
+            width:100%;
+            float:left;
+            position: relative;
+            }
+    nav a {
+            text-align: left;
+            width: 100%;
+            text-indent: 25px;
+            background:#000000
+            ;
+            color:#000000;
+          }
+    nav a:hover {
+                color:#000000;
+                }
+    nav a#toggle-btn:after{
+        content:"|||";
+        transform:rotate(-90deg);
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        position:absolute;
+        right: 5px;
+        top:20px;     
+    }
+    nav a#toggle-btn{
+        display: block;
+        background: #000000;
+        color:#000000;
+        width:100%;
+        position: relative;
+
+    }
+
+
+}
+
 
 
 
@@ -234,7 +283,7 @@ nav ul li ul li a:hover
                 <li> <a class="padding" button href="http://localhost/casaAnauco/public/Noticias"> NOTICIAS </a></li>
                 <li> <a class="padding" button href="http://localhost/casaAnauco/public/Eventos"> EVENTOS </a></li>
                 <li> <a class="padding" button href="http://localhost/casaAnauco/public/Piezas">PIEZAS HISTORICAS</a></li>
-                <li> <a class="padding" button href="#">RECORRIDO VIRTUAL </a></li>
+                <li> <a class="padding" button href="http://localhost/casaAnauco/public/Recorrido">RECORRIDO VIRTUAL </a></li>
                 <li> <a class="padding"button href="http://localhost/casaAnauco/public/contacto">CONTÁCTENOS</a></li>
                 @if (Auth::guest())
                             <li><a class="padding" class="navbar-brand" href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
