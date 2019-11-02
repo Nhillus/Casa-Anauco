@@ -101,7 +101,7 @@
     }
   }
   </style>
-  @include('navhome')
+  @include('navhomepiezas')
   </head>
 
 <body>

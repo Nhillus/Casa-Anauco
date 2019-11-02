@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximu-scale=1">
 
-  <title>Bootstrap Example</title>
+  <title>Navegacion</title>
   <!--Font awesome icons 4.7 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap -->
@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <!-- jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -30,13 +32,19 @@
 
 <style>
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     
 }
 
 .padding{
-    padding: 22px 14px;
+    padding: 9px 3.5px;
+}
+
+.despegable
+{
+    padding: 9px 3.5px;
 }
 
 .header {
@@ -46,7 +54,7 @@
 }
 
 body
-{
+{   font-family: 'Poppins', sans-serif;
     background-color: #adadad;
     background-size: cover;
 }
@@ -65,7 +73,7 @@ nav p
  font-size:24px;
  line-height: 55px;
  float: left;
- padding:0px 20px;
+ padding:0px 30px;
 }
 
 nav ul 
@@ -76,10 +84,12 @@ nav ul
 nav ul
 {
     text-decoration: none;
+   
 }
 
 nav ul li 
 {
+     
     float: left;
     list-style: none;
     position: relative;
@@ -152,6 +162,9 @@ nav ul ul li:nth-child(3) a:before
 
 nav ul li a
 {
+
+ margin-left: 5px; 
+ line-height: 49px;
  font-family: arial;
  color: #c0c0c0;
  font-size:14px;
@@ -199,55 +212,93 @@ nav ul li ul li a:hover
     background-color: #000000;
     color:#snow;
 }
-
-@media screen and (max-width: 580px){
-    nav {
-            height: auto;
-            border-bottom:0;
-
-        }
-
-    nav ul{
-            display: none;
-            height: auto;
-          }
-    nav li {
-            width:100%;
-            float:left;
-            position: relative;
-            }
-    nav a {
-            text-align: left;
-            width: 100%;
-            text-indent: 25px;
-            background:#000000
-            ;
-            color:#000000;
-          }
-    nav a:hover {
-                color:#000000;
-                }
-    nav a#toggle-btn:after{
-        content:"|||";
-        transform:rotate(-90deg);
+{{-- 1 --}}
+@media screen and (max-width: 1477px){
+ body{
+      
+ }
+ .padding
+ {
+   font-size:13px;  
+ }
+ nav ul ul ul li a 
+     {
         width: 40px;
-        height: 40px;
-        display: inline-block;
-        position:absolute;
-        right: 5px;
-        top:20px;     
-    }
-    nav a#toggle-btn{
+        height:35px;
+        background:snow;
+        text-align: center;
+        line-height: 30px;
+        font-size: 25px;
+        margin: 15px 5px;
         display: block;
-        background: #000000;
-        color:#000000;
-        width:100%;
+        border-radius: 50%;
         position: relative;
-
+        overflow:hidden;
+        border: 3px solid #a8a8a8;
+        z-index: 1;
+      }
+}
+{{-- 2 --}}
+@media screen and (max-width: 1422px){
+    .padding{
+     font-size:12px;
+     padding: 9px 2px; 
     }
 
-
+    nav ul ul ul li a 
+     {
+        width: 30px;
+        height: 25px;
+        background:snow;
+        text-align: center;
+        line-height: 21px;
+        font-size: 16px;
+        margin: 20px 3px;
+        display: block;
+        border-radius: 50%;
+        position: relative;
+        overflow:hidden;
+        border: 3px solid #a8a8a8;
+        z-index: 1;
+      }
 }
+{{-- 3 --}}
+@media screen and (max-width: 1361px){
+    .padding{
+     font-size:11px;
+     }
+     .despegable
+     {
+      font-size: 12px;
+     }
+      
+     
+}
+{{-- 4 --}}
+@media screen and (max-width: 1343px){
+    .padding{
+     font-size:10px; 
+    }
+    nav p 
+    {
+        font-size:20px;
+        padding: 0px 20px;
+    }
+}
+{{-- 5 --}}
+@media screen and (max-width: 1135px){
+    
+    .nav-link{
+        margin: -2px;
+
+    }
+    nav p 
+    {
+        padding: 0px 0px;
+    }
+}
+
+
 
 
 
@@ -266,25 +317,25 @@ nav ul li ul li a:hover
 </div>
 
 
-<nav>
-    <p>Quinta De Anauco</p>
+<nav class="navegacion">
+    <p class="Nombre-logo">Quinta De Anauco</p>
     
     
-        <ul >
+        <ul class="nav-links">
                 <!-- dropdown -->
-                <li><a class="padding">SOBRE EL MUSEO <span class="caret"></span></a>
+                <li class="nav-link"><a class="despegable">SOBRE EL MUSEO <span class="caret"></span></a>
                     <ul>
                             <li><a  button href="http://localhost/casaAnauco/public/historia">Historia</a></li>
                             <li><a  button href="http://localhost/casaAnauco/public/servicios">Servicios</a></li>
                             <li><a  button href="http://localhost/casaAnauco/public/coleccion">Coleccion</a></li>     
                     </ul>
                 </li>
-                <li> <a class="padding" button href="http://localhost/casaAnauco/public/">HOME</a></li>
-                <li> <a class="padding" button href="http://localhost/casaAnauco/public/Noticias"> NOTICIAS </a></li>
-                <li> <a class="padding" button href="http://localhost/casaAnauco/public/Eventos"> EVENTOS </a></li>
-                <li> <a class="padding" button href="http://localhost/casaAnauco/public/Piezas">PIEZAS HISTORICAS</a></li>
-                <li> <a class="padding" button href="http://localhost/casaAnauco/public/Recorrido">RECORRIDO VIRTUAL </a></li>
-                <li> <a class="padding"button href="http://localhost/casaAnauco/public/contacto">CONTÁCTENOS</a></li>
+                <li class="nav-link"> <a class="padding" button href="http://localhost/casaAnauco/public/">HOME</a></li>
+                <li class="nav-link"> <a class="padding" button href="http://localhost/casaAnauco/public/Noticias"> NOTICIAS </a></li>
+                <li class="nav-link"> <a class="padding" button href="http://localhost/casaAnauco/public/Eventos"> EVENTOS </a></li>
+                <li class="nav-link"> <a class="padding" button href="http://localhost/casaAnauco/public/Piezas">PIEZAS HISTORICAS</a></li>
+                <li class="nav-link"> <a class="padding" button href="http://localhost/casaAnauco/public/Recorrido">RECORRIDO VIRTUAL </a></li>
+                <li class="nav-link"> <a class="padding"button href="http://localhost/casaAnauco/public/contacto">CONTÁCTENOS</a></li>
                 @if (Auth::guest())
                             <li><a class="padding" class="navbar-brand" href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
                             <li><a class="padding" class="navbar-brand" href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span>Registrarse</a></li>
@@ -302,7 +353,7 @@ nav ul li ul li a:hover
                                 </ul>
                             
                         @endif
-            <ul>
+            <ul class="nav-social-desordenada">
                 <ul>
                     <li><a href="https://www.facebook.com/pages/category/Civilization-Museum/Quinta-de-Anauco-102238113179138/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>    
                     <li><a href="https://twitter.com/quintadeanauco?lang=es"><i class="fab fa-twitter"></i></a></li>

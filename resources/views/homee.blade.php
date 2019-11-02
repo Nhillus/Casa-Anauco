@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     
-    @include('navhome')
+    @include('navhomepiezas')
         
  <style>
  .block-title span:before {

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Servicios</title>
-    @include('navhome')
+    @include('navhomepiezas')
     <h1>Servicios</h1> 
 <style>
 element.style {
@@ -58,13 +58,7 @@ iframe{
 
     </div>
 
-    <video width="100%" height="auto" poster="imagenes/video1.mp4" muted="" loop="" preload="auto" style="width: 1409.78px; height: 793px; margin-left: -270.889px; margin-top: -140px; max-width: none;">
-        <source type="video/mp4" src="imagenes/video1.mp4">
-        <source type="video/webm" src="imagenes/video1.mp4">
-        <source type="video/ogv" src="imagenes/video1.mp4">
-      </video>
     
-
     
  
 

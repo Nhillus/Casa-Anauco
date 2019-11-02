@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>Piezas</title>
     @include('navhomepiezas')
 </head>
@@ -11,7 +12,7 @@
 <style>
 body
 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -94,7 +95,7 @@ button {
     <section role="main">
             <header>
                     <h1>
-                        Colecciòn
+                        Colección
                     </h1>
             </header>
                     
@@ -287,4 +288,5 @@ button {
             
     
 </body>
+@include('footerpiezas')
 </html>

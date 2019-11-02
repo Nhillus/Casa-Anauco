@@ -1,5 +1,5 @@
 
-@include('navhome')
+@include('navhomepiezas')
 @if (Auth::guest())
 <p>titulo: {{$Noticias->titulo}}</p>
 <p>cuerpo: {{$Noticias->cuerpo}}</p>

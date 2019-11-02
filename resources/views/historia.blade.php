@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Historia</title>
-    @include('navhome')
+    @include('navhomepiezas')
     <h1>Historia</h1> 
 <style>
 
