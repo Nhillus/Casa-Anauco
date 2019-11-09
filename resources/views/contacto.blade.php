@@ -143,6 +143,6 @@ enctype="multipart/form-data"
 </div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.8582927801767!2d-66.90149418520156!3d10.511825592501397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a59338baddc21%3A0x50f0d581f5aedf96!2sMuseo+de+Arte+Colonial+de+Caracas!5e0!3m2!1ses-419!2sve!4v1548613518159" width="1775" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </body>
-@include('footer')
+@include('footerpiezas')
 
 </html>

@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Sunshiney&display=swap" rel="stylesheet">
     <title>Piezas</title>
     @include('navhomepiezas')
 </head>
@@ -13,13 +18,17 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+   
 }
 
+main
+{
+    margin: 0px 40px;;
+}
 section
 {
     max-width: 1450px;
-    margin: auto;
+    
 }
 .container 
 {
@@ -53,11 +62,13 @@ h1 {
       text-align: center;
       font-size: 54px;
       color: #FFD152;
+      font-family: 'Great Vibes', cursive;
 }
 
 h2 {
       font-size: 42px;
       color: #8D8273;
+      font-family: 'Great Vibes', cursive;
 }
 
 h3 {
@@ -72,9 +83,35 @@ h4 {
       margin-bottom: 0;
 }
 
-img {
-      margin: 20px 0;
-      width: 50%;
+
+.container-arq
+{   
+    position: relative;
+    width: 1380px;
+    height: 460px;
+    margin: 5px 0px;
+    
+}
+.intro-arq
+{
+    text-align: justify;
+    width: 820px;
+    height: 220px;
+    
+}
+
+
+
+.img-arq {     
+      margin: 0px 0px 00px 0px;
+      text-anchor: end;
+      float: right;
+      border: 5px solid #5c3f09;
+      border-radius: 20%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      
 }
 
 button {
@@ -90,37 +127,47 @@ button {
       text-transform: uppercase;
 }
 
+p{
+    font-family: 'Sunshiney', cursive;
+    font-size: 24px;
+}
+
+ 
+
 </style>
 <body>
+    <main>
     <section role="main">
             <header>
                     <h1>
                         Colección
                     </h1>
             </header>
-                    
-                
                 <header>
                     <h2>
                     Arquitectura
                     </h2>
                 </header>
-                    <p>El diseño de la Quinta de Anauco, sede del Museo, corresponde a las típicas construcciones de estancias ubicadas 
-                    cercanas a la ciudad y sigue características de la arquitectura civil venezolana del siglo XVIII. En aquella época 
-                    estaba rodeada de jardines ornamentales y algunas siemas de café, caña y árboles frutales.
+                
+                <div class="container-arq"> 
+                    <p class="intro-arq">
+                        El diseño de la Quinta de Anauco, sede del Museo, corresponde a las típicas construcciones de estancias ubicadas 
+                        cercanas a la ciudad y sigue características de la arquitectura civil venezolana del siglo XVIII. En aquella época 
+                        estaba rodeada de jardines ornamentales y algunas siemas de café, caña y árboles frutales.
 
-                    La planta está constituída por un cuerpo central de forma rectangular, con dos patios interiores, corredores y dos 
-                    caballerizas. Esta planta y su distribución derivan de las construcciones andaluzas
+                        La planta está constituída por un cuerpo central de forma rectangular, con dos patios interiores, corredores y dos 
+                        caballerizas. Esta planta y su distribución derivan de las construcciones andaluzas
                     </p>
-                    <img src= {{asset ("imagenes/casa2.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400"> 
-                    <p>
-                    Los techos de toda la casa son de caña amarga sostenidos por viguetas de mangle. Sólo los techos de los corredores 
-                    principales y el corredor exterior son de madera de cedro, con el sistema llamado de pares y nudillos, consistente en 
-                    tablas sostenidas por vigas cuadradas. En el interior de las habitaciones se pueden observar los cielos rasos de yeso, 
-                    característicos de fines del siglo XVIII. Los corredores están hechos utilizando el sistema adintelado. 
-                    Este sistema se caracteriza por vigas horizontales apoyadas soe zapatas, las cuales se apoyan a su vez soe columnas 
-                    cilíndricas inspiradas en el orden toscano.
+                    <p class="intro-arq">
+                        Los techos de toda la casa son de caña amarga sostenidos por viguetas de mangle. Sólo los techos de los corredores 
+                        principales y el corredor exterior son de madera de cedro, con el sistema llamado de pares y nudillos, consistente en 
+                        tablas sostenidas por vigas cuadradas. En el interior de las habitaciones se pueden observar los cielos rasos de yeso, 
+                        característicos de fines del siglo XVIII. Los corredores están hechos utilizando el sistema adintelado. 
+                        Este sistema se caracteriza por vigas horizontales apoyadas soe zapatas, las cuales se apoyan a su vez soe columnas 
+                        cilíndricas inspiradas en el orden toscano.
                     </p>
+                        <img src= {{asset ("imagenes/casa2.png")}} class="img-arq" alt="Cinque Terre" width="400" height="400">
+                </div>
                     <img src= {{asset ("imagenes/C6.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400"> 
                     <p>
                     Las paredes fueron construídas con el sistema de tapia y rafa, consistente en tierra pisada con cal y piedra y 
@@ -280,6 +327,7 @@ button {
                 
             </div>
     </section>
+    </main>
             
             
              

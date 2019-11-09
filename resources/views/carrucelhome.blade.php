@@ -8,13 +8,13 @@
 </head>
 <style>
   #myCarousel{
-    z-index: -1;;
+    z-index: -2;;
   }
 </style>
 <body>
 
 <div class="container">
-<div class="col-sm-12">
+<div class="col-sm-11">
 
 <!--<h2>Carousel</h2>  -->
     

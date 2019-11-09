@@ -17,6 +17,8 @@
   <!-- jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -68,9 +70,9 @@ nav
 
 nav p 
 {
- font-family: arial;
- color: #c0c0c0;
- font-size:24px;
+ font-family: 'Great Vibes', cursive;
+ color: #8D8273;
+ font-size:34px;
  line-height: 55px;
  float: left;
  padding:0px 30px;
@@ -165,8 +167,8 @@ nav ul li a
 
  margin-left: 5px; 
  line-height: 49px;
- font-family: arial;
- color: #c0c0c0;
+ font-family: 'Poppins', sans-serif;
+ color: #8D8273;
  font-size:14px;
  float: left;
  display: block;
@@ -189,6 +191,7 @@ nav ul li ul
     background-color: #000000;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+    z-index: 1;
 }
 
 
@@ -234,7 +237,7 @@ nav ul li ul li a:hover
         border-radius: 50%;
         position: relative;
         overflow:hidden;
-        border: 3px solid #a8a8a8;
+        border: 3px solid #8D8273;
         z-index: 1;
       }
 }

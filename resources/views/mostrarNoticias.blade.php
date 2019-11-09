@@ -79,5 +79,6 @@
     @else
     @endif
 </body>
+@include('footerpiezas')
 
 </html>

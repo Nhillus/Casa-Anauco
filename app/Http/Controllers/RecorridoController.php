@@ -4,7 +4,7 @@
  * --------------------------------------------------------------------------
  * |Controlador del recorrido
  * --------------------------------------------------------------------------
- * |Description Devuelve los metodos que nesecita la vista recorrido 
+ * |Description: Devuelve los metodos que nesecita la vista recorrido 
  * |
  * |
  * |
@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 /**
  * @class
  * --------------------------------------------------------------------------
- * Clase recorrido virtual
+ * Description:Clase recorrido virtual
  * 
  * 
  * 
@@ -28,7 +28,7 @@ class RecorridoController extends Controller
     /** 
      * @function
      * ----------------------------------------------------------------------
-     * Devuelve a la vista recorrido virtual en views 
+     * Description: Devuelve a la vista recorrido virtual en views 
      * 
     */
     public function index()

@@ -64,17 +64,17 @@
 
     <div class="col-sm-4">
          <h3>
-         <a href="https://twitter.com/quintadeanauco?lang=es" target="_blank">@QuintadeAnauco<span class="fa"></span></a>
+         <a href="https://twitter.com/quintadeanauco?lang=es" target="_blank"><span class="fa"></span></a>
          </h3>
-         <a class="twitter-timeline" data-width="600" data-height="520" href="https://twitter.com/quintadeanauco?ref_src=twsrc%5Etfw">Tets by apsconsultores</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         <a class="twitter-timeline" data-width="600" data-height="600" href="https://twitter.com/quintadeanauco?ref_src=twsrc%5Etfw">Twets by QuintadeAnauco</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
  </div>
 
 <!-- partes del home -->
 <div class="container-fluid text-center">
   
-  <br>
-  <div class="row">
+
+  
   <div class="col-sm-4">
   <p>seccion reservada1 Noticias</p>
   @include('carruceleventos')
@@ -130,7 +130,7 @@
 
 </body>
 <!-- seccion del footer -->
-@include('footer')
+@include('footerpiezas')
 
 
 

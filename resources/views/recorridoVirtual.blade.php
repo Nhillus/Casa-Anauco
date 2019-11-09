@@ -9,4 +9,7 @@
 <body>
     
 </body>
+<footer>
+@include('footerpiezas')
+</footer>
 </html>
