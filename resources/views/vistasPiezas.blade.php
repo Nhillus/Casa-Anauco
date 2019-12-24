@@ -66,6 +66,7 @@ h1 {
 }
 
 h2 {
+      margin: 0px 0px 0px 40px;
       font-size: 42px;
       color: #8D8273;
       font-family: 'Great Vibes', cursive;
@@ -89,32 +90,146 @@ h4 {
     position: relative;
     width: 1380px;
     height: 460px;
-    margin: 5px 0px;
-    
+    margin: 5px 0px;   
 }
 .intro-arq
 {
     text-align: justify;
-    width: 820px;
+    width: 970px;
     height: 220px;
-    
+    margin:20px;
 }
 
-
-
-.img-arq {     
-      margin: 0px 0px 00px 0px;
+.img-arq 
+{     
+      margin: 0px 0px 0px 30px;
       text-anchor: end;
       float: right;
       border: 5px solid #5c3f09;
       border-radius: 20%;
       position: absolute;
-      right: 0px;
+      right: -65px;
       top: 0px;
-      
 }
 
-button {
+.container-arq-left
+{   
+
+    position: relative;
+    width: 1380px;
+    height: 530px;
+    margin: 0px 0px 0px 0px;
+}
+
+.text-left-container
+{
+    margin: 60px 0px 0px 0px;
+    width: 980px;
+    height: 430px;
+    position:absolute;
+    right: -75px;
+}
+
+.intro-arq-left
+{
+    text-align: justify;   
+}
+
+.img-arq-left 
+{     
+      margin: 60px 0px 0px 0px;
+      text-anchor: end;
+      float: left;
+      border: 5px solid #5c3f09;
+      border-radius: 20%;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+}
+.container-escultura
+{   
+    text-align: justify;
+    width: 1435px;
+    height: 100px;
+    margin:20px;   
+}
+.h2-margen
+{
+    margin: 55px 0px 0px 35px;
+}
+.container-mob-left
+{
+    position: relative;
+    width: 1380px;
+    height: 530px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.text-left-container-mob
+{
+    
+    width: 980px;
+    height: 650px;
+    position:absolute;
+    right: -75px;
+    
+}
+.intro-mob-left
+{
+    text-align: justify;
+}
+.img-mob
+{
+      margin: 20px 0px 0px 10px;
+      text-anchor: end;
+      float: left;
+      border: 5px solid #5c3f09;
+      border-radius: 20%;
+      position: absolute;
+      left: 0;
+      top: 45px;
+}
+
+.h2-margen-moar
+{
+    margin: 40px 0px 0px 35px;
+}
+
+.container-pla-left
+{
+    position: relative;
+    width: 1380px;
+    height: 460px;
+    margin: 5px 0px;  
+    
+}
+
+
+.intro-pla-left
+{
+    text-align: justify;
+    width: 970px;
+    height: 220px;
+    margin:20px;
+}
+
+.img-pla
+{
+    margin: 0px 0px 0px 30px;
+      text-anchor: end;
+      float: right;
+      border: 5px solid #5c3f09;
+      border-radius: 20%;
+      position: absolute;
+      right: -65px;
+      top: 0px;
+}
+}
+
+
+button 
+{
       outline: none;
       border: none;
       margin: 18px 0;
@@ -168,79 +283,87 @@ p{
                     </p>
                         <img src= {{asset ("imagenes/casa2.png")}} class="img-arq" alt="Cinque Terre" width="400" height="400">
                 </div>
-                    <img src= {{asset ("imagenes/C6.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400"> 
-                    <p>
-                    Las paredes fueron construídas con el sistema de tapia y rafa, consistente en tierra pisada con cal y piedra y 
-                    refuerzos intercalados de cal y canto. En algunos casos las paredes están adornadas con murales y zócalos estarcidos o 
-                    cintas de colores.
-                    </p>
-                    <p>
-                    Los pisos están cubiertos de panelas de ladrillo cocido de forma hexagonal o cuadrada. En los patios hay grandes 
-                    piedras rosadas, llamadas de mollejón, traídas de España como lastre en los barcos. Las hojas de puertas y ventanas 
-                    son de madera de cedro pintadas en dos tonos de verde. Se aen por medio de goznes de hierro y tienen cerraduras y
-                    pasadores también de hierro forjado.
-                    El adorno en la parte superior de las ventanas recibe el nome de peinazos y es un modelo típico de la segunda mitad 
-                    del siglo XVIII.
                     
-                    Las ventanas principales muestran rejas de hierro voladas apoyadas soe repisas y cubiertas con un pequeño techo 
-                    llamado guardapolvo. En su interior y en el espesor de la pared se encuentan los llamados poyos que son dos asientos
-                    ubicados a cada lado de la ventana.
-                    </p>
+                <div class="container-arq-left"> 
+                        <img src= {{asset ("imagenes/C6.png")}} class="img-arq-left" alt="Cinque Terre" width="400" height="400"> 
+                        <div class="text-left-container">
+                            <p class="intro-arq-left">
+                                Las paredes fueron construídas con el sistema de tapia y rafa, consistente en tierra pisada con cal y piedra y 
+                                refuerzos intercalados de cal y canto. En algunos casos las paredes están adornadas con murales y zócalos estarcidos o 
+                                cintas de colores.
+                            </p>
+                            <p class="intro-arq-left">
+                                Los pisos están cubiertos de panelas de ladrillo cocido de forma hexagonal o cuadrada. En los patios hay grandes 
+                                piedras rosadas, llamadas de mollejón, traídas de España como lastre en los barcos. Las hojas de puertas y ventanas 
+                                son de madera de cedro pintadas en dos tonos de verde. Se aen por medio de goznes de hierro y tienen cerraduras y
+                                pasadores también de hierro forjado.
+                                El adorno en la parte superior de las ventanas recibe el nome de peinazos y es un modelo típico de la segunda mitad 
+                                del siglo XVIII.
+                                
+                                Las ventanas principales muestran rejas de hierro voladas apoyadas soe repisas y cubiertas con un pequeño techo 
+                                llamado guardapolvo. En su interior y en el espesor de la pared se encuentan los llamados poyos que son dos asientos
+                                ubicados a cada lado de la ventana.
+                            </p>
+                        </div>
+                </div>
             </article>
-                    
-                    <img src= {{asset ("imagenes/coleccion4.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400"> 
-                    <article>
-                            <header>
-                                <h2>
+                       <header> 
+                                <h2 >
                                     Pintura
                                 </h2>
-                            </header>
-                            <p>
-                            La colección de Pinturas del Museo de Arte Colonial de Caracas consta de unas 97 oas.
+                       </header>
+                        <article class="container-arq">
+                                
+                            <div class="img-container-zoom">    
+                            <img src= {{asset ("imagenes/coleccion4.png")}} class="img-arq" alt="Cinque Terre" width="400" height="400"   > 
+                            </div>
+                                <p class="intro-arq">
+                                    La colección de Pinturas del Museo de Arte Colonial de Caracas consta de unas 97 oas.
 
-                            El arte de la pintura al principio del período hispánico se vió limitado por escaso número de pintores. 
-                            En aquel momento predominaban los tonos oscuros, los negros, los rojos y las tierras. Aparte de los pintores de la 
-                            capital, se localizan también escuelas importantes en El Tocuyo y en Mérida. Los sujetos se reparten 
-                            entre el retrato, del cual el Museo tiene excelentes muestras, y el tema religioso.
-                            
-                            El arte de la pintura al principio del período hispánico se vió limitado por escaso número de pintores. 
-                            En aquel momento predominaban los tonos oscuros, los negros, los rojos y las tierras. 
-                            Aparte de los pintores de la capital, se localizan también escuelas importantes en El Tocuyo y en Mérida. 
-                            Los sujetos se reparten entre el retrato, del cual el Museo tiene excelentes muestras, y el tema religioso.
-                            
-                            Destacan los nombres de Francisco José de Lerma y Villegas, José Lorenzo Zurita, Francisco Contreras y el 
-                            prolífico Juan Pedro López , abuelo del gran humanista Don Andrés Bello, de quien el Museo tiene una buena 
-                            representación de oas, y la llamada Escuela de los Landaeta.
-                            </p>
-                    </article>
+                                    El arte de la pintura al principio del período hispánico se vió limitado por escaso número de pintores. 
+                                    En aquel momento predominaban los tonos oscuros, los negros, los rojos y las tierras. Aparte de los pintores de la 
+                                    capital, se localizan también escuelas importantes en El Tocuyo y en Mérida. Los sujetos se reparten 
+                                    entre el retrato, del cual el Museo tiene excelentes muestras, y el tema religioso.
+                                    
+                                    El arte de la pintura al principio del período hispánico se vió limitado por escaso número de pintores. 
+                                    En aquel momento predominaban los tonos oscuros, los negros, los rojos y las tierras. 
+                                    Aparte de los pintores de la capital, se localizan también escuelas importantes en El Tocuyo y en Mérida. 
+                                    Los sujetos se reparten entre el retrato, del cual el Museo tiene excelentes muestras, y el tema religioso.
+                                    
+                                    Destacan los nombres de Francisco José de Lerma y Villegas, José Lorenzo Zurita, Francisco Contreras y el 
+                                    prolífico Juan Pedro López , abuelo del gran humanista Don Andrés Bello, de quien el Museo tiene una buena 
+                                    representación de oas, y la llamada Escuela de los Landaeta.
+                                </p>
+                        </article>
 
-                    <article>
-                            <header>
-                                    <h2>
-                                        Escultura
-                                    </h2>
-                            </header>
-                            <p>
-                                La escultura, siempre de tema religioso, tiene muestras de gran significación en las colecciones del Museo. 
-                                Destacan los nomes de Juan Pedro López, también dedicado a la escultura y José Francisco Rodríguez, alias 
-                                El Tocuyano.
-                            </p>
-                    </article>    
+                        <article >
+                                <header>
+                                        <h2 class="h2-margen">
+                                            Escultura
+                                        </h2>
+                                </header>
+                                <p class="container-escultura">
+                                    La escultura, siempre de tema religioso, tiene muestras de gran significación en las colecciones del Museo. 
+                                    Destacan los nomes de Juan Pedro López, también dedicado a la escultura y José Francisco Rodríguez, alias 
+                                    El Tocuyano.
+                                </p>
+                        </article>    
                     
-                    <article>
+                    <article class="container-mob-left">
                             <header>
                                     <h2>
                                         Mobiliario
                                     </h2>
                             </header>
-                                <img src= {{asset ("imagenes/coleccion5.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400"> 
-                                <p>
+                                <img src= {{asset ("imagenes/coleccion5.png")}} class="img-mob" alt="Cinque Terre" width="400" height="400"> 
+                            <div class="text-left-container-mob">
+                                <p class="intro-mob-left">
                                     La colección de muebles que se exhibe en el Museo de Arte Colonial es la más extensa y representativa del período 
                                     hispánico. 
                                     Cuenta alrededor de 224 piezas y se divide en tres períodos: Barroco, Rococó y Neoclásico.
                                 </p>
                                     <h4>Siglo XVII</h4>
-                                <p>
+                                <p class="intro-mob-left">
                                     A comienzo del siglo XVII los tipos de muebles eran muy limitados: se reducían a la cama, el banco, la silla, la mesa, 
                                     el arcón y el escaparate, con un estilo derivado del barroco español con ciertas influencias mudéjares.
 
@@ -251,7 +374,7 @@ p{
                                 </p>
 
                                     <h4>Siglo XVIII</h4>
-                                <p>
+                                <p class="intro-mob-left">
                                     Más adelante, con el creciente comercio impulsado por la Compañía Guipuzcoana, y con la presencia de una nueva inmigración, 
                                     comienza a notarse la influencia de la moda francesa. Las líneas se hicieron más sinuosas y asimétricas, y las porciones más altas y 
                                     elegantes, acordes con la altura de los techos. Los muebles pintados y dorados se popularizaron durante casi todo el siglo 
@@ -265,16 +388,18 @@ p{
                                     la que el elemento principal resulta ser el copete, tallado, pintado y dorado como era la usanza en buena parte de todos los muebles de 
                                     la época.
                                 </p>
+                            </div>
                     </article>
-                <img src= {{asset ("imagenes/coleccion6.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400">
-                    
-            <article>
+                
+                    <img src= {{asset ("imagenes/coleccion6.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400">
+            <article class="container-arq">
                 <header>
-                    <h2>
+                    <h2 class="h2-margen-moar">
                     La Butaca.
                     </h2>
                 </header>
-                    <p>
+                    <p class="container-escultura">
+                        
                         El diseño del mobiliario en Venezuela, como en toda provincia de España, estaba siempre inspirado en la 
                         moda europea con las variantes e interpretaciones locales que le dan sus características propias sin embargo, 
                         la única excepción fue la creación del diseño original y local de un mueble caracterizado por un espaldar y 
@@ -291,14 +416,15 @@ p{
                     </p>
             </article>
                     
-            <article>
+            <article class="container-pla-left">
                 <header>
                         <h2>
                             Platería
                         </h2>
                 </header>
-                    <img src= {{asset ("imagenes/coleccion7.png")}} class="img-rounded" alt="Cinque Terre" width="400" height="400">
-                    <p>
+                    <img src= {{asset ("imagenes/coleccion7.png")}} class="img-pla" alt="Cinque Terre" width="400" height="400">
+            
+                    <p class="intro-pla-left">
             
                     La platería constituyó una de las manifestaciones más importantes durante el período hispánico venezolano.
 
@@ -309,6 +435,7 @@ p{
                     1814 para sufragar los gastos de la Guerra de Independencia.Destacan los nomes de los plateros Sebastián de Ochoa, 
                     Pedro Ignacio Ramos, Domingo Tomás Núñez, Luis Vicente López y Pedro Fermín Arias, entre otros, 
                     todos agrupados en un solo gremio que permitió continuidad y tradición en la oa. Total 95 piezas.
+                    </p>
             </article>
             <article>
                     <h2>Otras Artesanía:</h2>

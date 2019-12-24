@@ -18,6 +18,6 @@ class RouteTest extends TestCase
     {
         $this->get('/')
              ->assertStatus(200)
-             ->assertSee('QUINTA DE ANAUCO');
+             ->assertSee('Quinta De Anauco');
     }
 }
