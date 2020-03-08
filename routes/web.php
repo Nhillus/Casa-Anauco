@@ -52,6 +52,7 @@ Route::get('/coleccion', 'CasaanaucoController@mostrarcoleccion');
 Route::get('/Piezas', 'PiezasController@index');
 //Rutas del recorrido virtual
 Route::get('/Recorrido', 'RecorridoController@index');
+Route::get('/Importancia', 'ImportanciaController@index');
 
 
 

@@ -110,6 +110,7 @@ h4 {
       position: absolute;
       right: -65px;
       top: 0px;
+,
 }
 
 .container-arq-left
@@ -119,6 +120,7 @@ h4 {
     width: 1380px;
     height: 530px;
     margin: 0px 0px 0px 0px;
+    
 }
 
 .text-left-container
