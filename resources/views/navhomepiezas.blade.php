@@ -215,6 +215,58 @@ nav ul li ul li a:hover
     background-color: #000000;
     color:#snow;
 }
+@media screen and (min-width: 2560px){
+    .padding:
+    {
+        font-size:47px;
+        padding: 10px 20px;
+    } 
+
+    nav ul ul ul li a 
+{
+    
+    width: 50px;
+    height:45px;
+    background:snow;
+    text-align: center;
+    line-height: 42px;
+    font-size: 35px;
+    margin: 8px 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow:hidden;
+    border: 3px solid #a8a8a8;
+    z-index: 1;
+}
+
+nav p 
+    {
+        font-size:80px;
+        padding: 0px 20px;
+        margin-left: 30px;
+    }
+
+nav ul
+{
+    margin-left: 80px;
+
+}
+nav ul li a
+{
+    font-size:22px;
+}
+nav
+{
+    
+    height: 78px;
+    
+}
+
+
+    
+}
+
 {{-- 1 --}}
 @media screen and (max-width: 1477px){
  body{
@@ -245,7 +297,7 @@ nav ul li ul li a:hover
 @media screen and (max-width: 1422px){
     .padding{
      font-size:12px;
-     padding: 9px 2px; 
+      
     }
 
     nav ul ul ul li a 

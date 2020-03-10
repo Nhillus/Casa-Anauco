@@ -15,6 +15,7 @@
 </head>
 <header></header>
 <style>
+
 body
 {
     font-family: 'Poppins', sans-serif;
@@ -38,18 +39,7 @@ section
     padding: 0  3rem;
 }
 
-@media screen and (min-width: 30em)
-    {
-        section 
-        {
-            display table;
-            table-layout: fixed;
-        }
-        article
-        {
-            display table-cell;
-        }
-    }
+
 
 h1, h2, h3
     {
@@ -249,6 +239,134 @@ p{
     font-size: 24px;
 }
 
+@media screen and (min-width: 2560px){
+
+    p{
+    font-family: 'Sunshiney', cursive;
+    font-size: 37px;
+}   
+    .container-arq
+{   
+    position: relative;
+    width: 2360px;
+    height: 460px;
+    margin: 5px 0px;   
+}
+.intro-arq
+{
+    text-align: justify;
+    width: 1980px;
+    height: 220px;
+    margin:20px;
+}
+
+.container-arq-left 
+{   
+
+    position: relative;
+    width: 2360px;
+    height: 530px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.text-left-container
+{
+    margin: 60px 0px 0px 0px;
+    width: 2000px;
+    height: 330px;
+    position:absolute;
+    right: -75px;
+}
+
+.container-escultura
+{   
+    text-align: justify;
+    width: 2000px;
+    height: 100px;
+    margin:20px;   
+}
+
+.container-mob-left
+{
+    position: relative;
+    width: 2380px;
+    height: 530px;
+    margin: 0px 0px 0px 0px;
+}
+.text-left-container-mob
+{
+    
+    width: 2000px;
+    height: 650px;
+    position:absolute;
+    right: -75px;
+    
+}
+
+.container-escultura
+{   
+    text-align: justify;
+    width: 2400px;
+    height: 100px;
+    margin:20px;   
+}
+.container-pla-left
+{
+    position: relative;
+    width: 2390px;
+    height: 460px;
+    margin: 5px 0px;  
+}
+.intro-pla-left
+{
+    text-align: justify;
+    width: 1990px;
+    height: 220px;
+    margin:20px;
+}
+.container-art
+{
+    position: relative;
+    width: 2390px;
+    height: 300px;
+    margin: 5px 0px;
+     
+}
+h1 {
+     font-size: 94px; 
+
+}
+
+h2 
+{
+    font-size: 82px;
+
+}
+
+
+}
+@media screen and (min-width: 1920px){
+    
+}
+@media screen and (max-width: 1366px){
+    
+}
+@media screen and (max-width: 1280px){
+    
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width < 768px){
+    
+}
+
+
+
  
 
 </style>
@@ -270,45 +388,46 @@ p{
                     <p class="intro-arq">
                         El diseño de la Quinta de Anauco, sede del Museo, corresponde a las típicas construcciones de estancias ubicadas 
                         cercanas a la ciudad y sigue características de la arquitectura civil venezolana del siglo XVIII. En aquella época 
-                        estaba rodeada de jardines ornamentales y algunas siemas de café, caña y árboles frutales.
+                        estaba rodeada de jardines ornamentales y algunas siembras de café, caña y árboles frutales.
 
                         La planta está constituída por un cuerpo central de forma rectangular, con dos patios interiores, corredores y dos 
-                        caballerizas. Esta planta y su distribución derivan de las construcciones andaluzas
+                        caballerizas. Esta planta y su distribución derivan de las construcciones andaluzas.
                     </p>
                     <p class="intro-arq">
-                        Los techos de toda la casa son de caña amarga sostenidos por viguetas de mangle. Sólo los techos de los corredores 
-                        principales y el corredor exterior son de madera de cedro, con el sistema llamado de pares y nudillos, consistente en 
-                        tablas sostenidas por vigas cuadradas. En el interior de las habitaciones se pueden observar los cielos rasos de yeso, 
-                        característicos de fines del siglo XVIII. Los corredores están hechos utilizando el sistema adintelado. 
-                        Este sistema se caracteriza por vigas horizontales apoyadas soe zapatas, las cuales se apoyan a su vez soe columnas 
-                        cilíndricas inspiradas en el orden toscano.
+                            Los techos de toda la casa son de caña amarga sostenidos por viguetas de mangle. Sólo los techos de los corredores 
+                            principales y el corredor exterior son de madera de cedro, con el sistema llamado de pares y nudillos, consistente en 
+                            tablas sostenidas por vigas cuadradas. En el interior de las habitaciones se pueden observar los cielos rasos de yeso, 
+                            característicos de fines del siglo XVIII. Los corredores están hechos utilizando el sistema adintelado. 
+                            Este sistema se caracteriza por vigas horizontales apoyadas sobre zapatas, las cuales se apoyan a su vez sobre columnas 
+                            cilíndricas inspiradas en el orden toscano.
+    
                     </p>
                         <img src= {{asset ("imagenes/casa2.png")}} class="img-arq" alt="Cinque Terre" width="400" height="400">
                 </div>
-                    
+                     
                 <div class="container-arq-left"> 
                         <img src= {{asset ("imagenes/C6.png")}} class="img-arq-left" alt="Cinque Terre" width="400" height="400"> 
                         <div class="text-left-container">
                             <p class="intro-arq-left">
-                                Las paredes fueron construídas con el sistema de tapia y rafa, consistente en tierra pisada con cal y piedra y 
+                                Las paredes fueron construidas con el sistema de tapia y rafa, consistente en tierra pisada con cal y piedra y 
                                 refuerzos intercalados de cal y canto. En algunos casos las paredes están adornadas con murales y zócalos estarcidos o 
                                 cintas de colores.
                             </p>
                             <p class="intro-arq-left">
                                 Los pisos están cubiertos de panelas de ladrillo cocido de forma hexagonal o cuadrada. En los patios hay grandes 
                                 piedras rosadas, llamadas de mollejón, traídas de España como lastre en los barcos. Las hojas de puertas y ventanas 
-                                son de madera de cedro pintadas en dos tonos de verde. Se aen por medio de goznes de hierro y tienen cerraduras y
+                                son de madera de cedro pintadas en dos tonos de verde. Se abren por medio de goznes de hierro y tienen cerraduras y
                                 pasadores también de hierro forjado.
-                                El adorno en la parte superior de las ventanas recibe el nome de peinazos y es un modelo típico de la segunda mitad 
+                                El adorno en la parte superior de las ventanas recibe el nombre de peinazos y es un modelo típico de la segunda mitad 
                                 del siglo XVIII.
                                 
-                                Las ventanas principales muestran rejas de hierro voladas apoyadas soe repisas y cubiertas con un pequeño techo 
+                                Las ventanas principales muestran rejas de hierro voladas apoyadas sobre repisas y cubiertas con un pequeño techo 
                                 llamado guardapolvo. En su interior y en el espesor de la pared se encuentan los llamados poyos que son dos asientos
                                 ubicados a cada lado de la ventana.
                             </p>
                         </div>
                 </div>
-            </article>
+            
                        <header> 
                                 <h2 >
                                     Pintura
@@ -320,7 +439,7 @@ p{
                             <img src= {{asset ("imagenes/coleccion4.png")}} class="img-arq" alt="Cinque Terre" width="400" height="400"   > 
                             </div>
                                 <p class="intro-arq">
-                                    La colección de Pinturas del Museo de Arte Colonial de Caracas consta de unas 97 oas.
+                                    La colección de Pinturas del Museo de Arte Colonial de Caracas consta de unas 97 años.
 
                                     El arte de la pintura al principio del período hispánico se vió limitado por escaso número de pintores. 
                                     En aquel momento predominaban los tonos oscuros, los negros, los rojos y las tierras. Aparte de los pintores de la 
@@ -334,7 +453,7 @@ p{
                                     
                                     Destacan los nombres de Francisco José de Lerma y Villegas, José Lorenzo Zurita, Francisco Contreras y el 
                                     prolífico Juan Pedro López , abuelo del gran humanista Don Andrés Bello, de quien el Museo tiene una buena 
-                                    representación de oas, y la llamada Escuela de los Landaeta.
+                                    representación de obras, y la llamada Escuela de los Landaeta.
                                 </p>
                         </article>
 
@@ -346,7 +465,7 @@ p{
                                 </header>
                                 <p class="container-escultura">
                                     La escultura, siempre de tema religioso, tiene muestras de gran significación en las colecciones del Museo. 
-                                    Destacan los nomes de Juan Pedro López, también dedicado a la escultura y José Francisco Rodríguez, alias 
+                                    Destacan los nombres de Juan Pedro López, también dedicado a la escultura y José Francisco Rodríguez, alias 
                                     El Tocuyano.
                                 </p>
                         </article>    
@@ -434,12 +553,12 @@ p{
                     alcanzaron su apogeo en la segunda mitad del siglo XVIII. Trabajaban con plata mexicana, negociada en intercambio por cacao.
 
                     Fue una producción de piezas civiles y religiosas. Las piezas de orden civil desaparecieron casi por completo al ser fundidas en 
-                    1814 para sufragar los gastos de la Guerra de Independencia.Destacan los nomes de los plateros Sebastián de Ochoa, 
+                    1814 para sufragar los gastos de la Guerra de Independencia.Destacan los nombres de los plateros Sebastián de Ochoa, 
                     Pedro Ignacio Ramos, Domingo Tomás Núñez, Luis Vicente López y Pedro Fermín Arias, entre otros, 
-                    todos agrupados en un solo gremio que permitió continuidad y tradición en la oa. Total 95 piezas.
+                    todos agrupados en un solo gremio que permitió continuidad y tradición en la obra. Total 95 piezas.
                     </p>
             </article>
-            <article>
+            <article class="container-art">
                     <h2>Otras Artesanía:</h2>
 
                     <p>
